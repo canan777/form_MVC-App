@@ -3,6 +3,7 @@
 ✅ form_MVC Project
 
 💻 MVC (Model-View-Controller) architecture is a commonly used architectural design pattern in software development. This architecture separates the components of an application into data, user interface, and business logic, making the code more organized, easier to maintain, and reusable.
+
 📊 A form project created with the MVC architecture typically follows the following basic structure:
 
 ⏩ Model: This is the part where data is processed and stored. In a form project, the data entered by users is usually processed and stored in this part. For example, when a user enters their name, surname, and email address in a form, this data is typically stored in the model layer.
