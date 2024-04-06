@@ -1,0 +1,102 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": "Canan",
+      "title": "React MVC Pattern(Mimari)",
+      "text": "MVC Mimari ile nasıl bileşenleri yöntirim??",
+      "date": "2023-09-11T19:13:21.364Z"
+    },
+    {
+      "id": 2,
+      "user": "Güneş",
+      "title": "React MVVM Paterni",
+      "text": "Bu nedir???",
+      "date": "2023-09-11T19:13:21.364Z"
+    },
+    {
+      "id": "378a0574-a91e-417e-ae41-a301fe1234e0",
+      "date": "2023-09-11T19:13:21.364Z",
+      "title": "React123",
+      "text": "Bunu nasıl çözeriz???",
+      "user": "Canoo"
+    },
+    {
+      "id": "ff867aec-1452-4ec5-bb37-75ccd6234fe4",
+      "date": "2023-09-11T19:59:57.523Z",
+      "title": "MVVM Nedir?",
+      "text": "Nasıl oluyor\n",
+      "user": "Güneşin Kızı"
+    },
+    {
+      "id": "02db8f75-0321-4edb-af18-e5b0783acda6",
+      "date": "2023-09-11T20:00:15.908Z",
+      "title": "React ile proje ",
+      "text": "React ile proje  nasıl geliştirilir????",
+      "user": "Öğretmen"
+    },
+    {
+      "id": "fd0b0ea3-fc16-44dc-9d47-fb299a5a9a0e",
+      "date": "2023-10-13T17:37:38.872Z",
+      "title": "1234",
+      "text": "13123",
+      "user": "Yazılımcı"
+    },
+    {
+      "id": "fa216093-0f0e-4d5b-aa24-ff099a0bef00",
+      "date": "2023-10-13T18:57:07.230Z",
+      "user": "Canan",
+      "title": "dedededed",
+      "text": "Mavi"
+    },
+    {
+      "id": "bb407a91-6015-438a-b278-2bdcc87f7d07",
+      "date": "2023-10-13T19:06:27.047Z",
+      "user": "Teacher",
+      "title": "asdasdasd",
+      "text": "Turuncu"
+    },
+    {
+      "id": "fd6cbb5f-7369-42e6-889d-5ee788b3da36",
+      "date": "2023-10-13T19:52:19.984Z",
+      "user": "Kağan",
+      "title": "MVCC",
+      "text": "Siyah"
+    },
+    {
+      "id": "5d78b5c9-8487-4b9b-a2d4-b27cc7fe319d",
+      "date": "2023-10-13T19:52:35.275Z",
+      "user": "Anıl",
+      "title": "MVC ",
+      "text": "deneme333"
+    },
+    {
+      "id": "7f1445c7-d810-411b-ac6a-1622bdce378e",
+      "date": "2024-04-06T18:06:56.985Z",
+      "user": "MVC",
+      "title": "MVC Mimarisi",
+      "text": "kncljcadjpov"
+    },
+    {
+      "id": "855a0e60-b7c0-40ee-b6d4-3b7fbe9cac92",
+      "date": "2024-04-06T18:07:29.552Z",
+      "user": "",
+      "title": "",
+      "text": ""
+    },
+    {
+      "id": "3811b816-3a81-41d5-9cc7-3adfa27a91a0",
+      "date": "2024-04-06T18:10:49.517Z",
+      "user": "yazılımcı öğretmen",
+      "title": "MVC",
+      "text": "MVC mimarisi"
+    },
+    {
+      "id": "8523d983-2a4a-4eeb-bf93-27f8ef53a28f",
+      "date": "2024-04-06T18:11:15.419Z",
+      "user": "",
+      "title": "",
+      "text": ""
+    }
+  ]
+}

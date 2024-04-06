@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    color: rgb(14, 23, 28);
+    background-color: rgb(3, 51, 34);
+    overflow-x: hidden;
+  }
+  // header
+  header {
+    background-color: rgb(10, 91, 80);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  
+    a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    .active {
+      display: none;
+    }
+  }
+  // liste sayfası
+  .container {
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .post {
+      background-color: rgb(23, 175, 155);
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      box-shadow: 2px 2px 40px rgb(238, 96, 48);
+      .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        p {
+          color: black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  // ekeleme sayfası
+  form {
+    width: 70vw; // 70% 70vw tarayının yğzde 70ini alır 70% kapsayıcının 70ini alır Viewport Width
+    max-width: 900px;
+    min-height: 70vh;
+    background-color: rgb(23, 175, 155);
+    margin: 100px auto;
+    padding: 50px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h2 {
+      text-align: center;
+    }
+    fieldset {
+      border: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      input {
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+      }
+      textarea {
+        resize: vertical; // sadece dikey
+        max-height: 200px;
+        min-height: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+      }
+    }
+    button {
+      background-color: rgb(243, 105, 14);
+      border: none;
+      padding: 10px;
+      font-weight: 900;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+  // popup
+  .wrapper {
+    position: fixed;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    .popup {
+      background-color: rgb(3,51,34);
+      padding: 10px;
+      border-radius: 10px;
+      width: 70%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      .btn-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h4 {
+          color: black;
+        }
+        span {
+          color: rgb(224, 91, 13);
+        }
+        button {
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          color: rgb(9, 6, 8);
+          background-color: crimson;
+          cursor: pointer;
+        }
+      }
+    }
+  }
